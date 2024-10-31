@@ -20,10 +20,6 @@ public class Todos {
         return tasks;
     }
 
-    public boolean matches(String query) {
-        return false;
-    }
-
     public Task[] search(String query) {
         Task[] result = new Task[0]; // массив для ответа
         for (Task task : tasks) { // перебираем все задачи

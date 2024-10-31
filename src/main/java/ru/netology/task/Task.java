@@ -26,5 +26,7 @@ public abstract class Task {
         return Objects.hash(id);
     }
 
-    public abstract boolean matches(String query);
+    public boolean matches(String query) {
+        return false;
+    }
 }
